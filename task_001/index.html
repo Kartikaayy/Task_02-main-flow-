@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">MyWebsite</div>
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon"></label>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Features ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="./feature/feature1.html">Feature 1</a></li>
+                            <li><a href="./feature/feature2.html">Feature 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Services ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="./services/service1.html">Service 1</a></li>
+                            <li><a href="./services/service2.html">Service 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contact/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Design Your Future</h1>
+            <p>Create powerful experiences with modern, responsive web design.</p>
+            <a href="./feature/feature1.html" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-items">
+            <div class="feature">
+                <h3>Fast Performance</h3>
+                <p>Optimized code and structure for quick loading.</p>
+            </div>
+            <div class="feature">
+                <h3>Responsive Design</h3>
+                <p>Looks great on both desktop and mobile devices.</p>
+            </div>
+            <div class="feature">
+                <h3>Easy Navigation</h3>
+                <p>Dropdown menus enhance user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </footer>
+</body>
+
+</html>
